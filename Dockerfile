@@ -3,8 +3,8 @@ FROM nginx:alpine
 
 # Copy all static files to nginx html directory
 COPY chat.html /usr/share/nginx/html/
-COPY css/ /usr/share/nginx/html/css/
-COPY js/ /usr/share/nginx/html/js/
+#COPY css/ /usr/share/nginx/html/css/
+#COPY js/ /usr/share/nginx/html/js/
 
 # Expose port 80
 EXPOSE 80
